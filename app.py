@@ -4,7 +4,7 @@ import joblib
 import json
 
 # Load model
-model = joblib.load(r'model\BHP.joblib')
+model = joblib.load(r'model/BHP.joblib')
 
 # Load data columns
 with open(r'model\columns.json', 'r') as f:
