@@ -7,7 +7,7 @@ import json
 model = joblib.load(r'model/BHP.joblib')
 
 # Load data columns
-with open(r'model\columns.json', 'r') as f:
+with open(r'model/columns.json', 'r') as f:
     data_columns = json.load(f)["data_columns"]
 
 location_list = data_columns[3:]  # exclude sqft, bath, bhk
