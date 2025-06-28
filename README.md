@@ -14,7 +14,7 @@ Live price prediction
 
 2. pip install -r requirements.txt
 
-3.streamlit run app.py
+3. streamlit run app.py
 
 📦 Model Input Example
 {
